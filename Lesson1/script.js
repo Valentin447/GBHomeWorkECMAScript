@@ -16,13 +16,13 @@ console.log(Math.min(...arr));
 function createCounter() {
   let count = 0;
   return {
-    increment: function () {
+    increment() {
       count++;
     },
-    decrement: function () {
+    decrement() {
       count--;
     },
-    value: function () {
+    value() {
       return count;
     },
   };
